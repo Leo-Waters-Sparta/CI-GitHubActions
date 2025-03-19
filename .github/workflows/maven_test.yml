@@ -26,6 +26,8 @@ jobs:
     steps:
       - name: Say hello
         run: echo "Hello from sayHello"
+      - name: Say goodMorning
+        run: echo "good morning from goodMorning"
       - name: Say goodbye
         run: echo "Goodbye from sayHello"
 
